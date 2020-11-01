@@ -1,3 +1,3 @@
 # HoliMori
 Pagina web para brindar servicio de eventos
-    - Eventos de la Empresa "MORI"
+    - Eventos de la Empresa "Producciones MORI"
