@@ -1,4 +1,1 @@
-# TeamGCS
 
-Pagina web para brindar servicio de eventos
-    - Eventos de la Empresa "Producciones MORI"
