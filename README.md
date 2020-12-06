@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **DevDaily**
 
 <HR/>
@@ -6,3 +7,6 @@
 
 ### Docente: Lenis Wong
 
+=======
+Rama
+>>>>>>> cc375fff391f1be572cb1ec457407134288ff624
