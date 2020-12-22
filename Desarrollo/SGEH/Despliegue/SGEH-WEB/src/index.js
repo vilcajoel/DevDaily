@@ -20,12 +20,22 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs');
 
 // Middlewares
-
 app.use(morgan('dev'));
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: false})); //aceptamos los datos que vienen desde el formulario
+app.use(express.json()); //Aceptamos y enviamos json
+
+//Global variables
+app.use((req,res,next)=>{
+    
+    next();
+});
+
 
 //Routes
 app.use(require('./routes/index.js'));
+
+//Public
+app.use(express.static(path.join(__dirname,'public')));
 
 // Starting
 app.listen(app.get('port'), () => {
