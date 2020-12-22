@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,8 @@
     "passport": "^0.4.1",
     "stripe": "^8.129.0",
     "sweetalert2": "^10.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
