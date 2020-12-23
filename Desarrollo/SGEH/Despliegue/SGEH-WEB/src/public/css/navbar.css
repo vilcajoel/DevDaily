@@ -18,11 +18,23 @@
     z-index: 9999;
 }
 
+.menu .logo-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+
+.menu .logo-box img{
+    margin-left: 2rem;
+
+}
 .menu .logo-box .logoHoliMori{
     color: var(--dark-blue);
-    margin-left: 2.5rem;
+    margin-left: 1rem;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 .nav-container{
@@ -85,7 +97,11 @@
         flex-direction: column;
         font-size: 22px;
     }
-    
+
+    .menu .logo-box{
+        margin-top: 20px;
+    }
+
     span{
         display: inline;
     }
@@ -106,7 +122,7 @@
         flex-direction: column;
         left:-100%;
         background:#fff;
-        height: calc(100vh - 60px);
+        height: calc(100vh - 80px);
         width: 100%;
     }
 
