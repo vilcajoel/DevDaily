@@ -12,96 +12,68 @@
     height: 80px;    
     background-color: var(--light-gray);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     z-index: 9999;
 }
 
-.menu .logo-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
-.menu .logo-box img{
+/* .menu .logo-box img{
     margin-left: 2rem;
+} */
 
-}
 .menu .logo-box .logoHoliMori{
     color: var(--dark-blue);
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     text-decoration: none;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.9rem;
 }
 
-.nav-container{
+.nav-container ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu .nav-list-left-container{   
-    margin-left: 2.5rem; 
-}
-
-.menu .nav-list-right-container {
-    margin-right: 2.5rem;
-}
-
-.menu .nav-list-left-container a{
-    color: var(--dark-gray);; 
-    margin-left:15px;
-    margin-right: 15px;
-    padding: 0.6rem 1.9rem 0.6rem 1.9rem;
-
-}
-
-.menu .nav-list-right-container a{
-    background-color: var(--dark-yellow);
-    border-radius: 12px;
-    color: var(--white);
-    margin-right: 15px;
-    margin-left: 15px;
-    padding:15px; 
-}
-
-.logo-nav-box, .nav-list-left, .nav-list-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-list-left li, .nav-list-right li{
+.nav-list li{
     list-style: none;
 }
 
-.nav-list-left li a, .nav-list-right li a{
+.menu .nav-container .nav-list a{
+    color: var(--dark-gray);
+    margin-left:30px;
+    margin-right: 30px;
+    padding: 1.1rem;
     text-decoration: none;  
+
+}
+
+.menu .nav-container .nav-list a.active{
+    background-color: var(--dark-yellow);
+    border-radius: 12px;
+    color: var(--white);
 }
 
  span{
      display: none;
+     border: solid black 1px;
  }
 
- .menu .nav-list-left-container a:hover, .menu .nav-list-right-container a:hover{
-    transition: color 0.3s ease-in-out;
-    color: black;
+ .menu .nav-container .nav-list a:hover{
+    transition: color 0.4s ease-in-out ;
+    color: black !important ;
 }
 
 
+
+
 @media only screen and (max-width: 775px) {
+   
     .menu{
-        flex-direction: column;
-        font-size: 22px;
+        justify-content: center;
     }
-
-    .menu .logo-box{
-        margin-top: 20px;
-    }
-
     span{
         display: inline;
     }
@@ -109,18 +81,20 @@
         display: block;
         position:absolute;
         right: 30px;
-        top: 20px;
+        top: 30px;
         font-size: 22px;
         color: var(--black);
         transition: 0.5s;
         cursor: pointer;
     }
+    .btn-menu > .fa-bars:hover{
+        color: var(--dark-yellow);        
+    }
 
     .menu .nav-container{
         position: fixed;
-        top:60px;
-        flex-direction: column;
-        left:-100%;
+        top:80px;  
+        left:-100%; 
         background:#fff;
         height: calc(100vh - 80px);
         width: 100%;
@@ -136,42 +110,30 @@
         margin-left: 0;
     }
 
-    .menu .nav-list-right, .menu .nav-list-left{
+    .menu .nav-container .nav-list{
         flex-direction: column; 
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        height: 100%  
+        height: 100%;  
+        border-top:4px solid var(--dark-yellow);
+         
     }
-    .menu .nav-list-right-container a{
-        width: 100%;
-        background-color: unset;
-        border-radius: 10px;
-        color: var(--dark-gray);
-        margin-right: 0;
-        margin-left: 0;
-        padding: 0.6rem 1.9rem 0.6rem 1.9rem;
-    
+    .menu .nav-container ul li{
+        width: 90%;
+        border-bottom: 2px solid var(--dark-yellow); 
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5rem;
     }
+    .menu .nav-container .nav-list li:hover{
+        transition: all 0.3s ease-in-out ;
+        color: black !important ;
+        border-bottom: 2px solid var(--dark-line-yellow);
+    }
+    .menu .nav-container .nav-list li a{        
+        background-color: unset !important;
+        color: var(--dark-gray) !important;   
+    } 
 
-    .menu .nav-list-right-container li{        
-        padding:  2.3rem 0rem;
-    }
-    .menu .nav-list-left-container li{        
-        padding:  2.3rem 0rem;
-    }
-
-    .menu .nav-list-left-container{  
-        margin-left: 0; 
-        height: 50%;
-
-    }
-    
-    .menu .nav-list-right-container {
-        margin-right: 0;
-        height: 50%;
-    }
-    .menu .nav-list-left-container a:hover, .menu .nav-list-right-container a:hover{
-        transition: all 0.3s ease-in-out;
-        background-color:var(--dark-yellow) ;
-        border-radius: 15px;
-    }
 }
