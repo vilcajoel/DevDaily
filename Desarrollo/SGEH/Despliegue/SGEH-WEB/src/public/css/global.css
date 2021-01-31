@@ -1,0 +1,18 @@
+:root {
+    --light-gray: hsl(0, 0%, 98%);
+    --dark-blue:  hsl(233, 12%, 13%);
+    --dark-gray: hsl(227, 12%, 61%);
+    --white: #ffff;
+    --dark-yellow: #FBBF24;
+    --dark-line-yellow: #d8b04c
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Be Vietnam', sans-serif !important;
+}
