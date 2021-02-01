@@ -1,0 +1,145 @@
+#header {
+    position: relative;
+    width: 100%;
+}
+
+.menu{
+    position: fixed;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80px;    
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+
+/* .menu .logo-box img{
+    margin-left: 2rem;
+} */
+
+.menu .logo-box .logoHoliMori{
+    color: var(--dark-blue);
+    margin-left: 2.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.menu .nav-container .nav-list a{
+    color: var(--dark-gray);
+    margin-left:30px;
+    margin-right: 30px;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+    text-decoration: none;  
+
+}
+
+.menu .nav-container .nav-list a.active{
+    background-color: var(--dark-yellow);
+    border-radius: 12px;
+    color: var(--white);
+}
+
+ span{
+     display: none;
+     border: solid black 1px;
+ }
+
+ .menu .nav-container .nav-list a:hover{
+    transition: color 0.4s ease-in-out ;
+    color: black !important ;
+}
+
+@media only screen and (max-width: 1054px) {
+    .menu .nav-container .nav-list a{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+    }
+
+}
+
+@media only screen and (max-width: 775px) {
+   
+    .menu{
+        justify-content: center;
+    }
+    span{
+        display: inline;
+    }
+    .btn-menu > .fa-bars{
+        display: block;
+        position:absolute;
+        right: 30px;
+        top: 30px;
+        font-size: 22px;
+        color: var(--black);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .btn-menu > .fa-bars:hover{
+        color: var(--dark-yellow);        
+    }
+
+    .menu .nav-container{
+        position: fixed;
+        top:80px;  
+        left:-100%; 
+        background:#fff;
+        height: calc(100vh - 80px);
+        width: 100%;
+    }
+
+    .menu .logo-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .logo-box .logoHoliMori{
+        margin-left: 0;
+    }
+
+    .menu .nav-container .nav-list{
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;  
+        border-top:4px solid var(--dark-yellow);
+         
+    }
+    .menu .nav-container ul li{
+        width: 90%;
+        border-bottom: 2px solid var(--dark-yellow); 
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+    .menu .nav-container .nav-list li:hover{
+        transition: all 0.3s ease-in-out ;
+        color: black !important ;
+        border-bottom: 2px solid var(--dark-line-yellow);
+    }
+    .menu .nav-container .nav-list li a{        
+        background-color: unset !important;
+        color: var(--dark-gray) !important;   
+    } 
+
+}
