@@ -1,151 +1,58 @@
 [
     {
-        "nombreProducto": "aguacate",
-        "imagenUrl": "aguacate.jpg",
+        "nombreProducto": "Quinceañera",
+        "imagenUrl": "quinceanera.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 3000
     },
     {
-        "nombreProducto": "ajo",
-        "imagenUrl": "ajo.jpg",
+        "nombreProducto": "Matrimonio",
+        "imagenUrl": "matrimonio.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 1500
     },
     {
-        "nombreProducto": "almendra",
-        "imagenUrl": "almendras.jpg",
+        "nombreProducto": "Bodas de Plata",
+        "imagenUrl": "bodadeplata.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 5000
     },
     {
-        "nombreProducto": "arandano",
-        "imagenUrl": "arandanos.jpg",
+        "nombreProducto": "Bodas de Oro",
+        "imagenUrl": "bodasdeoro.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 6000
     },
     {
-        "nombreProducto": "brocoli",
-        "imagenUrl": "brocoli.png",
+        "nombreProducto": "Baby Shower",
+        "imagenUrl": "babyshower.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 2500
     },
     {
-        "nombreProducto": "calabaza",
-        "imagenUrl": "calabaza.jpg",
+        "nombreProducto": "Fiesta de Cumpleaños",
+        "imagenUrl": "cumpleaños.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 2000
     },
     {
-        "nombreProducto": "canela",
-        "imagenUrl": "canela.jpg",
+        "nombreProducto": "Mis Dulces 16",
+        "imagenUrl": "16años.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 2700
     },
     {
-        "nombreProducto": "cebolla",
-        "imagenUrl": "cebolla.jpg",
+        "nombreProducto": "Mi primer añito",
+        "imagenUrl": "miprimeraño.jpg",
         "cantidadDisponible": 10,
         "cantidadComprada": 0,
         "precioUnitario": 1200
-    },
-    {
-        "nombreProducto": "fresa",
-        "imagenUrl": "fresa.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 3500
-    },
-    {
-        "nombreProducto": "kiwi",
-        "imagenUrl": "kiwi.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 8500
-    },
-    {
-        "nombreProducto": "limon",
-        "imagenUrl": "limon.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 1600
-    },
-    {
-        "nombreProducto": "lychee",
-        "imagenUrl": "lychee.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 6700
-    },
-    {
-        "nombreProducto": "maiz",
-        "imagenUrl": "maiz.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 1800
-    },
-    {
-        "nombreProducto": "manzana",
-        "imagenUrl": "manzana.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 1400
-    },
-    {
-        "nombreProducto": "naranja",
-        "imagenUrl": "naranja.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 1900
-    },
-    {
-        "nombreProducto": "papa",
-        "imagenUrl": "papa.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 900
-    },
-    {
-        "nombreProducto": "pasta",
-        "imagenUrl": "pasta.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 1900
-    },
-    {
-        "nombreProducto": "pimienta",
-        "imagenUrl": "pimienta.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 2100
-    },
-    {
-        "nombreProducto": "repollo",
-        "imagenUrl": "repollo.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 2200
-    },
-    {
-        "nombreProducto": "tomate",
-        "imagenUrl": "tomate.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 1600
-    },
-    {
-        "nombreProducto": "zanahoria",
-        "imagenUrl": "zanahoria.jpg",
-        "cantidadDisponible": 10,
-        "cantidadComprada": 0,
-        "precioUnitario": 1300
     }
-
-
 ]
