@@ -1,0 +1,58 @@
+[
+    {
+        "nombreProducto": "Quinceañera",
+        "imagenUrl": "quinceanera.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 3000
+    },
+    {
+        "nombreProducto": "Matrimonio",
+        "imagenUrl": "matrimonio.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 1500
+    },
+    {
+        "nombreProducto": "Bodas de Plata",
+        "imagenUrl": "bodadeplata.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 5000
+    },
+    {
+        "nombreProducto": "Bodas de Oro",
+        "imagenUrl": "bodasdeoro.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 6000
+    },
+    {
+        "nombreProducto": "Baby Shower",
+        "imagenUrl": "babyshower.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 2500
+    },
+    {
+        "nombreProducto": "Fiesta de Cumpleaños",
+        "imagenUrl": "cumpleaños.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 2000
+    },
+    {
+        "nombreProducto": "Mis Dulces 16",
+        "imagenUrl": "16años.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 2700
+    },
+    {
+        "nombreProducto": "Mi primer añito",
+        "imagenUrl": "miprimeraño.jpg",
+        "cantidadDisponible": 10,
+        "cantidadComprada": 0,
+        "precioUnitario": 1200
+    }
+]
