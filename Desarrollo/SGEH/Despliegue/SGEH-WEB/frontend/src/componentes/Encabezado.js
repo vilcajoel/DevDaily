@@ -13,11 +13,10 @@ const Encabezado = (props) =>  (
                 <h1>Holi - Mori</h1>
             </div>
             <div>  
-                {/* <span className="espaciado1"><MenuIcon className="icon"/></span>       */}
                 <Link to = "/inicio"className="espaciado1"><Badge color="secondary"><HomeIcon className="icon"/></Badge></Link>
               
                 <Link to="/main/carrito" className="espaciado1 link"><Badge badgeContent={props.carrito} color="secondary"><ShoppingCartIcon className="icon"/></Badge></Link>
-                {/* <span className="espaciado1"><i class="fas fa-home"></i></span> */}
+                
                 <span className="espaciado1" onClick={() => props.salir()}><Badge color="secondary"><ExitToAppIcon className="icon"/></Badge></span>
             </div>
         </div>

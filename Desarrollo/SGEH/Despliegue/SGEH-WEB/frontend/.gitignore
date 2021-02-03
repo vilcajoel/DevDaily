@@ -7,7 +7,9 @@
 
 # testing
 /coverage
-
+*.test.js.snap
+*.snap
+/__snapshots__
 # production
 /build
 
