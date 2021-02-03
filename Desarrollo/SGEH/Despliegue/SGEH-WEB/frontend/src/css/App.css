@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap');
+:root {
+	--light-gray: hsl(0, 0%, 98%);
+	--dark-blue: hsl(0, 0%, 1%);
+	--dark-gray: #ffffff;
+	--white-1: #ffff;
+	--dark-yellow: #fbbf24;
+	--dark-line-yellow: #d8b04c;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-family: 'Be Vietnam', sans-serif !important;
+}
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+} */
+.fondo,
+.fondo2 {
+	width: auto;
+	height: 100vh;
+}
+.fondo {
+	background-image: url(../../assets/img/login-fondo.jpg);
+}
+.fondo2 {
+	/* background-color: rgba(0, 0, 0, 0.70) */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.fondo3 {
+	background-image: linear-gradient(to bottom, rgb(255, 178, 35) 20%, rgb(236, 162, 26), yellow);
+	/* background-image: url(../../assets/img/main-fondo.jpg); */
+	/* height: 100vh; */
+	background-size: cover;
+	padding: 0px 40px;
+}
+.inputInicio {
+	width: 300px;
+	height: 25px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	border-radius: 5px;
+	display: flex;
+	align-items: flex-start;
+}
+.encabezado {
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.productos {
+	background-color: red;
+	height: 550px;
+	overflow: auto;
+}
+.vistaPrevia {
+	background-color: white;
+	height: 480px;
+}
+a {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.texto1,
+label {
+	color: #000;
+}
+.texto2 {
+	color: yellow;
+}
